@@ -24,6 +24,7 @@
   justify-content: space-between;
   position: fixed;
   top: 46px;
+  z-index: 1000;
 }
 .header img {
   width: 100px;
@@ -101,7 +102,8 @@
   overflow: hidden;
   position: relative;
   border-radius: 40px;
-  box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46),
+  box-shadow:
+    -8px -8px 0px 0px rgba(31, 114, 170, 0.46),
     8px 8px 0px 0px rgba(41, 114, 139, 0.25);
 }
 .location-spot_darker {
@@ -433,7 +435,8 @@
   justify-content: center;
 }
 .box:hover {
-  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+  box-shadow:
+    -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
     8px 8px 0px 0px rgba(41, 114, 139, 0.25);
 }
 
