@@ -328,6 +328,7 @@
   align-items: center;
 
   background: url(./Price&Footer\ image.png);
+  background-size: cover;
 }
 .footer_header {
   text-align: center;
