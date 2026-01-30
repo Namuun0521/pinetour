@@ -92,7 +92,7 @@
 .location-spots {
   column-gap: 40px;
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   background-image: url(./Location\ image.png);
 }
 
@@ -142,7 +142,7 @@
   position: relative;
   background-image: url(./Roadmap\ image.png);
   background-repeat: no-repeat;
-  background-size: 100% 100vh;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -320,13 +320,13 @@
 }
 
 .footerpart {
-  padding-top: 200px;
+  padding-top: 300px;
+  padding-bottom: 50px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background: url(./Price&Footer\ image.png);
   background-size: cover;
 }
